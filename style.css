@@ -1,0 +1,139 @@
+    /* Para mobile */
+    
+    [class*="col-"] {
+        width: 100%;
+    }
+    
+    body {
+        background-color: #474540;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    
+    .topnav {
+        background-color: #474540;
+        color: #E0E0E0;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 50px;
+        overflow: hidden;
+        z-index: 100;
+        /* z-index es el orden de capas */
+    }
+    
+    .sidenav {
+        height: 100%;
+        width: 0;
+        position: fixed;
+        z-index: 1;
+        top: 50px;
+        left: 0;
+        background-color: white;
+        overflow-x: hidden;
+        transition: 0.5s;
+        padding-top: 30px;
+    }
+    
+    .fa-bars {
+        position: absolute;
+        left: 30px;
+        line-height: 50px;
+    }
+    
+    .fa-times {
+        font-size: 20px;
+    }
+    
+    .fa-times:hover {
+        color: #E0E0E0;
+    }
+    
+    .sidenav .sidenavText {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 13px;
+        color: #333333;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .sidenav .sidenavText:hover {
+        background-color: rgb(255, 229, 33);
+        background-color: rgb(255, 229, 33, 0.2);
+        color: #333333;
+    }
+    
+    .sidenav .closebtn {
+        color: #333333;
+        text-decoration: none;
+        position: absolute;
+        top: 15px;
+        right: 15px;
+        font-size: 36px;
+        margin-left: 50px;
+        display: block;
+        transition: 0.3s;
+    }
+    
+    .menuSuperior {
+        font-weight: 700;
+        overflow: hidden;
+        font-size: 15px;
+        line-height: 50px;
+    }
+    
+    #contenido {
+        margin-top: 100px;
+    }
+    
+    .inicioSesion {
+        width: 100%;
+        height: 50px;
+    }
+    
+    input::placeholder {
+        color: #9c9b97;
+        font-size: 13px;
+        padding-left: 10px;
+    }
+    
+    .btnlgn {
+        width: 100%;
+        height: 50px;
+        background-color: #FFB300;
+        color: #474540;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 15px;
+    }
+    
+    .forgotPass {
+        color: white;
+        font-size: 12px;
+        margin-left: 30px;
+        font-weight: 400;
+    }
+    
+    .createAcc {
+        color: white;
+        font-weight: 400;
+        text-transform: uppercase;
+        font-size: 12px;
+    }
+    
+    .botones {
+        width: 100%;
+        height: 50px;
+        background-color: #FFB300;
+        color: white;
+        text-transform: uppercase;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    #contenidoBotones {
+        margin-top: 100px;
+    }

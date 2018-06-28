@@ -1,0 +1,58 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <title>Consulta de Bip!</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <!-- Bootstrap CDN-->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div id="contenido">
+        <div class="container">
+
+            <form action="panel.html">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="col">
+                            <input class="inicioSesion" type="email" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$" placeholder="Correo electrónico" required>
+                        </div>
+                        <div class="col">
+                            <input class="inicioSesion" type="password" name="password" pattern="[0-9]{8}" placeholder="Contraseña" required>
+                        </div>
+                        <div class="col">
+                            <input class="btnlgn" type="submit" value="Iniciar Sesión">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="bottom-container">
+            <div class="row">
+                <div class="col-12 text-left">
+                    <a href="#" class="forgotPass">¿Olvidaste tu contraseña?</a>
+                </div>
+                <div class="col-12 text-center">
+                    <a href="#" class="createAcc">¿No tienes cuenta? Regístrate</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
