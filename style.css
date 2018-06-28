@@ -4,8 +4,14 @@
         width: 100%;
     }
     
-    body {
+    #page1 {
         background-color: #474540;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+    }
+    
+    #page2 {
+        background-color: #dfdfdf;
         font-family: 'Montserrat', sans-serif;
         color: white;
     }
@@ -50,23 +56,32 @@
         color: #E0E0E0;
     }
     
+    .fa-dollar-sign,
+    .fa-th,
+    .fa-user,
+    .fa-question-circle,
+    .fa-arrow-right {
+        color: #FFB300;
+        margin-right: 10px;
+    }
+    
     .sidenav .sidenavText {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
         font-size: 13px;
-        color: #333333;
+        color: #8b8b8b;
         display: block;
         transition: 0.3s;
     }
     
     .sidenav .sidenavText:hover {
-        background-color: rgb(255, 229, 33);
-        background-color: rgb(255, 229, 33, 0.2);
-        color: #333333;
+        background-color: rgb(170, 170, 170);
+        background-color: rgb(170, 170, 170, 0.2);
+        color: #8b8b8b;
     }
     
     .sidenav .closebtn {
-        color: #333333;
+        color: #474540;
         text-decoration: none;
         position: absolute;
         top: 15px;
@@ -136,4 +151,60 @@
     
     #contenidoBotones {
         margin-top: 100px;
+    }
+    
+    #contenidoSaldo {
+        background-color: #FFB300;
+        height: 250px;
+    }
+    
+    #contenidoSaldoDos {
+        margin-top: 50px;
+    }
+    
+    .elipse {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        background: #E0E0E0;
+        margin: 75px;
+    }
+    
+    .casillas {
+        width: 100%;
+        height: 50px;
+        background-color: white;
+        color: #474540;
+        text-transform: lowercase;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    
+    p {
+        color: #8b8b8b;
+        font-size: 11px;
+        text-align: left;
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 0px;
+    }
+    
+    hr.lineaSeparadorUno {
+        border-top: 0.5px solid #BDBDBD;
+        margin-top: 0px;
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    
+    .casillasTarjetas {
+        width: 100%;
+        height: 30px;
+        background-color: white;
+        color: #474540;
+        font-weight: 300;
+        font-size: 15px;
+        margin-bottom: 5px;
+        margin-top: 10px;
     }

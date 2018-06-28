@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 
-<body>
+<body id="page2">
     <header>
         <div class="topnav">
             <div id="main">
@@ -34,16 +34,16 @@
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">
                 <i class="fas fa-times"></i>
             </a>
-            <a class="sidenavText" href="#">
-                <i class="fa fa-user"></i> Ver Saldo</a>
-            <a class="sidenavText" href="#">
-                <i class="fas fa-table"></i> Calcular Tarifa</a>
-            <a class="sidenavText" href="#">
-                <i class="fas fa-cog"></i> Perfil</a>
-            <a class="sidenavText" href="#">
-                <i class="fas fa-cog"></i> Preguntas Frecuentes</a>
-            <a class="sidenavText" href="#">
-                <i class="fas fa-cog"></i> Home</a>
+            <a class="sidenavText" href="saldo.html">
+                <i class="fas fa-dollar-sign"></i> Ver Saldo</a>
+            <a class="sidenavText" href="tarifa.html">
+                <i class="fas fa-th"></i> Calcular Tarifa</a>
+            <a class="sidenavText" href="perfil.html">
+                <i class="fas fa-user"></i> Perfil</a>
+            <a class="sidenavText" href="preguntas.html">
+                <i class="fas fa-question-circle"></i> Preguntas Frecuentes</a>
+            <a class="sidenavText" href="home.html">
+                <i class="fas fa-arrow-right"></i> Home</a>
         </div>
     </header>
 
@@ -54,7 +54,7 @@
                     <div class="col">
                         <form action="saldo.html">
                             <input name="numeroTarjeta" type="hidden">
-                            <input class="botones" type="submit" value="Saldo">
+                            <input class="botones" type="submit" value="Ver saldo">
                         </form>
                         <form action="tarifa.html">
                             <input name="numeroTarjeta" type="hidden">
