@@ -47,18 +47,7 @@
         </div>
     </header>
 
-    <div id="contenidoSaldo">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <div class="col">
-                        <svg class="elipse"></svg>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div id="contenidoSaldoDos">
+    <div id="contenidoSaldoOk">
         <div class="container">
             <div class="row">
                 <div class="col-12 text-center">
@@ -72,14 +61,22 @@
         </div>
         <div class="col-12 text-center">
             <div class="col">
+                <select class="dropdownSaldo">
+                <option value="defecto">Selecciona una tarjeta</option>
+                <option value="opcion1"></option>
+                <option value="opcion2"></option>
+                <option value="opcion3"></option>
+                </select>
+            </div>
+            <div class="col">
                 <form action="">
-                    <input name="agregarTarjeta" type="hidden">
-                    <input class="botones" type="submit" value="Agregar tarjeta">
-                    <input class="casillasTarjetas" type="number">
+                    <input name="verSaldo" type="hidden">
+                    <input class="botonVerSaldo" type="submit" value="Ver saldo">
                 </form>
             </div>
         </div>
     </div>
+
     <script src="app.js"></script>
 
 </body>
