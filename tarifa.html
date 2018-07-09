@@ -47,6 +47,48 @@
         </div>
     </header>
 
+    <div id="contenidoSaldoOk">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <div class="col">
+                        <input class="casillas">
+                    </div>
+                    <p>Número tarjeta</p>
+                </div>
+            </div>
+            <hr class="lineaSeparadorUno">
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 text-center">
+                    <h2>Tarifa</h2>
+                    <select class="dropdownTarifaUno">
+                <option value="defecto">Selecciona una opción</option>
+                <option value="opcion1"></option>
+                <option value="opcion2"></option>
+                <option value="opcion3"></option>
+                </select>
+                </div>
+                <div class="col-6 text-center">
+                    <h3>Tarjeta</h3>
+                    <select class="dropdownTarifaDos">
+                <option value="defecto">Selecciona una opción</option>
+                <option value="opcion1"></option>
+                <option value="opcion2"></option>
+                <option value="opcion3"></option>
+                </select>
+                </div>
+                <div class="col-12 text-center">
+                    <form action="">
+                        <input name="calcularTarifa" type="hidden">
+                        <input class="botonCalcular" type="submit" value="Calcular">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <script src="app.js"></script>
 
 </body>
